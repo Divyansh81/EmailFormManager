@@ -1,0 +1,79 @@
+/* EmailForm.css */
+.email-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  min-height: 100vh;
+}
+
+.email-form {
+  max-width: 400px; /* Reduced the max-width */
+  width: 80%; /* Reduced the width */
+  margin: 20px;
+  padding: 20px; /* Reduced the padding */
+  border: none;
+  border-radius: 15px; /* Reduced the border-radius */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #2c3e50, #34495e);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.label-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Reduced the margin-bottom */
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px; /* Reduced the padding */
+  margin-bottom: 12px; /* Reduced the margin-bottom */
+  border: none;
+  border-radius: 8px; /* Reduced the border-radius */
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #ecf0f1;
+  transition: background-color 0.3s ease;
+}
+
+.button-group {
+  display: flex;
+}
+
+button {
+  flex: 1;
+  margin-top: 15px; /* Reduced the margin-top */
+  padding: 12px; /* Reduced the padding */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px; /* Reduced the font-size */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background: linear-gradient(45deg, #3498db, #1abc9c);
+}
+
+button[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.email-entry {
+  margin: 20px;
+  padding: 20px; /* Reduced the padding */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #3498db, #1abc9c);
+  transition: all 0.3s ease;
+}
+
+.email-entry:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
